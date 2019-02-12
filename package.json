@@ -1,0 +1,20 @@
+{
+  "name": "dogregistery",
+  "version": "1.0.0",
+  "description": "a dog registery app",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.10",
+    "nodemon": "^1.18.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "zachary b jeffreys",
+  "license": "ISC"
+}

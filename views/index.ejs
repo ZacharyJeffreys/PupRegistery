@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset = 'UTF-8'>
+  <link href="/css/styleDogs.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div id = topbar>
+      </div>
+    <ul class="dogs">
+  <h3>Dog Registery</h3>
+  <form>
+    <input type = "text" placeholder = "Search" name = search><button type="Go!">search</button>
+  </form>
+  <a href = "/">Sign Out</a>
+  <% for(var i=0; i<dogs.length; i++) {%>
+    <li class="dog">
+      <div class = "wrapper2"><%= "Owner: "+ dogs[i].Ownername %></div>
+      <div class = "wrapper"><%= "Dogs Name:" + dogs[i].dogName %></div>
+      <div class = "wrapper2"><%= "Breed:" + dogs[i].breed %></div>
+      <div class = "wrapper"><%= "Birthdate:" + dogs[i].birthday %></div>
+      <div class = "wrapper2"><%= "Gender:" + dogs[i].gender %></div>
+      <div class = "break"></div>
+    </li>
+  <% } %>
+</ul>
+</body>
+</html>

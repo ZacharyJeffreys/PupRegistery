@@ -1,0 +1,27 @@
+#topbar{
+  background-color: #44b7ab;
+  width: auto;
+  height: 20px;
+margin-top: -8px;
+margin-left: -8px;
+margin-right: -8px;
+}
+#header h3{
+  font-size: 30px;
+  margin-top: -6px;
+}
+body{
+  text-align: center;
+}
+input{
+  width: 300px;
+  margin-top: 10px;
+}
+a{
+  float: right;
+  margin-right: 8px;
+}
+#registerwrapper{
+  text-align: center;
+  margin-top: 30px;
+}
